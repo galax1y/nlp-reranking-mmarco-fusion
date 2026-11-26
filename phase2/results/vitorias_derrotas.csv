@@ -1,0 +1,4 @@
+A,B,vitórias A,empates,derrotas A,resgates (B>10 → A≤10),perdas (B≤10 → A>10)
+CE nosso (K=100),BM25,2562,3548,870,1186,209
+CE pronto (K=100),BM25,2733,3602,645,1309,126
+CE nosso (K=100),CE pronto (K=100),916,4353,1711,98,304

@@ -1,0 +1,17 @@
+{
+  "T5_MODEL": "unicamp-dl/monoptt5-base",
+  "T5_TEMPLATE": "Pergunta: {query} Documento: {text} Relevante:",
+  "CASCADE_K": 100,
+  "CASCADE_NS": [
+    5,
+    10,
+    20
+  ],
+  "CASCADE_FROM": [
+    "CE nosso",
+    "CE pronto"
+  ],
+  "t5_dtype": "float32",
+  "gpu": "Tesla T4",
+  "USE_AMP_CE": true
+}
